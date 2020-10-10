@@ -66,14 +66,16 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "vikesh-vaghela-angular-node-practical:build:production"
+              "browserTarget": "vikesh-vaghela-angular-node-practical:build:production",
+              "proxyConfig": "proxy.conf.json"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "vikesh-vaghela-angular-node-practical:build"
+            "browserTarget": "vikesh-vaghela-angular-node-practical:build",
+            "proxyConfig": "proxy.conf.json"
           }
         },
         "test": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vikesh-vaghela-angular-node-practical"
+    }
+  },
+  "defaultProject": "vikesh-vaghela-angular-node-practical",
+  "cli": {
+    "analytics": false
+  }
 }
