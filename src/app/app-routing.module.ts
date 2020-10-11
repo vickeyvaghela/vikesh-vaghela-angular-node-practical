@@ -9,7 +9,7 @@ import { ImportComponent } from './front/import/import.component';
 
 
 const routes: Routes = [
-  { path: '', component: UserdashboardComponent },
+  { path: '', component: UserloginComponent },
   { path: 'user-login', component: UserloginComponent },
   { path: 'user-dashboard', component: UserdashboardComponent },
   { path: 'import', component: ImportComponent },

@@ -28,6 +28,9 @@ export class ImportComponent implements OnInit {
 
     this.userServ.uploadImages(formData).subscribe(uploadImageRes => {
 
+      if(uploadImageRes && uploadImageRes.success){
+        alert('imported successfully')
+      }
 
 
     },error => {

@@ -35,7 +35,7 @@ export class UserloginComponent  {
 
         if(userServRes.success){
           localStorage.setItem("email",this.loginForm.value.email)
-          window.location.href = "/userdashboard";
+          window.location.href = "/user-dashboard";
 
         }else{
           alert("Invali id or password")
