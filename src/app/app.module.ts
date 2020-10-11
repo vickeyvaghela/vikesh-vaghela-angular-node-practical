@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +15,7 @@ import { AdmindashboardComponent } from './admin/admindashboard/admindashboard.c
 import { UserloginComponent } from './front/userlogin/userlogin.component';
 import { AdminloginComponent } from './admin/adminlogin/adminlogin.component';
 import { UserregistrationComponent } from './front/userregistration/userregistration.component';
+import { ImportComponent } from './front/import/import.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +24,16 @@ import { UserregistrationComponent } from './front/userregistration/userregistra
     AdmindashboardComponent,
     UserloginComponent,
     AdminloginComponent,
-    UserregistrationComponent
+    UserregistrationComponent,
+    ImportComponent
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

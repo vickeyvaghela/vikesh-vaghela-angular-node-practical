@@ -11,8 +11,10 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   login(postData): Observable<any> {
-    console.log("from servic")
-    console.log(postData)
     return this.http.post<any>(this.apiBaseUrl+'/login',postData);
+  }
+
+  uploadImages(postData): Observable<any> {
+    return this.http.post<any>(this.apiBaseUrl+'/fileUpload',postData);
   }
 }
