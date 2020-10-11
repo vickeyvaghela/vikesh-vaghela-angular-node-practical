@@ -22,7 +22,7 @@ app.post('/login', async (req, res) => {
 
   MongoClient.connect(url, {useUnifiedTopology: true} , async function(err, db) {
     if (err) throw err;
-    var dbo = db.db("online_survey_sys_db");
+    var dbo = db.db("imports_db");
     dbo.collection("users").findOne({email:req.body.email}, async function(err, result) {
 
       if (err) throw err;
@@ -125,7 +125,7 @@ app.post('/fileUpload', (req, res) => {
 });
 
 async function addImportIntoMongo(importObj,db) {
-  var dbo = db.db("online_survey_sys_db");
+  var dbo = db.db("imports_db");
   let query = {_id: importObj._id}
   const options = { upsert: true };
 
