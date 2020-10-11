@@ -1,0 +1,22 @@
+{ "_id" : { "$oid" : "5f8009f6530ef357f5236aba" }, "question_type" : "input", "question_text" : "What is your name?", "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800a19530ef357f5236abb" }, "question_type" : "textarea", "question_text" : "Write something about yourself", "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800ab7530ef357f5236abc" }, "question_type" : "select", "question_text" : "Which framework do you like?", "options" : [ "codeignitor", "laravel", "yii" ], "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800ae1530ef357f5236abd" }, "question_type" : "checkbox", "question_text" : "Select your hobbies", "options" : [ "swimming", "drawing", "singing" ], "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800b2a530ef357f5236abe" }, "question_type" : "radio", "question_text" : "Are you married?", "options" : [ "yes", "no" ], "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800b4b530ef357f5236abf" }, "question_type" : "datepicker", "question_text" : "Select your birthday", "pageno" : 1.0 }
+{ "_id" : { "$oid" : "5f800c3a530ef357f5236ac1" }, "question_type" : "input", "question_text" : "What is your favourite animal?", "pageno" : 2.0 }
+{ "_id" : { "$oid" : "5f800c6f530ef357f5236ac2" }, "question_type" : "select", "question_text" : "select religion", "options" : [ "hindu", "muslim", "sikh" ], "pageno" : 2.0 }
+{ "_id" : { "$oid" : "5f800c8e530ef357f5236ac3" }, "question_type" : "radio", "question_text" : "Are you differently abled?", "options" : [ "yes", "no" ], "pageno" : 2.0 }
+{ "_id" : { "$oid" : "5f800ca9530ef357f5236ac4" }, "question_type" : "dateipcker", "question_text" : "Select college last date", "pageno" : 2.0 }
+{ "_id" : { "$oid" : "5f800cd7530ef357f5236ac5" }, "question_type" : "select", "question_text" : "Which is your favourite color?", "options" : [ "red", "black", "green" ], "pageno" : 3.0 }
+{ "_id" : { "$oid" : "5f800cf4530ef357f5236ac6" }, "question_type" : "input", "question_text" : "how much do you earn per month?", "pageno" : 3.0 }
+{ "_id" : { "$oid" : "5f800d11530ef357f5236ac7" }, "question_type" : "datepicker", "question_text" : "Father's birthday", "pageno" : 3.0 }
+{ "_id" : { "$oid" : "5f800d22530ef357f5236ac8" }, "question_type" : "input", "question_text" : "mother's name", "pageno" : 3.0 }
+{ "_id" : { "$oid" : "5f800d64530ef357f5236ac9" }, "question_type" : "checkbox", "question_text" : "check your domain", "options" : [ "finance", "it", "medical" ], "pageno" : 4.0 }
+{ "_id" : { "$oid" : "5f800d7a530ef357f5236aca" }, "question_type" : "input", "question_text" : "what is your father?", "pageno" : 4.0 }
+{ "_id" : { "$oid" : "5f800d9a530ef357f5236acb" }, "question_type" : "radio", "question_text" : "do you have child?", "options" : [ "yes", "no" ], "pageno" : 4.0 }
+{ "_id" : { "$oid" : "5f800db7530ef357f5236acc" }, "question_type" : "input", "question_text" : "what is your father's name?", "pageno" : 4.0 }
+{ "_id" : { "$oid" : "5f800df5530ef357f5236acd" }, "question_type" : "select", "question_text" : "What is your qualification?", "options" : [ "be", "mca", "bcom" ], "pageno" : 5.0 }
+{ "_id" : { "$oid" : "5f800ef7530ef357f5236ae0" }, "question_type" : "input", "question_text" : "What is makes you angry?", "pageno" : 5.0 }
+{ "_id" : { "$oid" : "5f800f2a530ef357f5236ae1" }, "question_type" : "radio", "question_text" : "do you have brother?", "options" : [ "yes", "no" ], "pageno" : 5.0 }
+{ "_id" : { "$oid" : "5f800f54530ef357f5236ae2" }, "question_type" : "input", "question_text" : "what is your school name?", "pageno" : 5.0 }

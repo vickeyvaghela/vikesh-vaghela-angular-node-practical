@@ -1,0 +1,7 @@
+{ "_id" : { "$oid" : "5f7fead0530ef357f5236a9e" }, "first_name" : "John", "last_name" : "Doe", "role" : "m", "email" : "john@doe.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7feb8c530ef357f5236a9f" }, "first_name" : "Parker", "last_name" : "Mahmoud", "role" : "m", "email" : "parker@mahmoud.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7fec84530ef357f5236aa0" }, "first_name" : "Grant", "last_name" : "Lavallee", "role" : "s", "email" : "grant@lavallee.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7fec8f530ef357f5236aa1" }, "first_name" : "Willia", "last_name" : "Digiacomo", "role" : "s", "email" : "willia@digiacomo.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7fec96530ef357f5236aa2" }, "first_name" : "Gisela", "last_name" : "Nieves", "role" : "s", "email" : "gisela@nieves.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7fec9c530ef357f5236aa3" }, "first_name" : "Maya", "last_name" : "Haltom", "role" : "s", "email" : "maya@haltom.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
+{ "_id" : { "$oid" : "5f7feca4530ef357f5236aa4" }, "first_name" : "Lupita", "last_name" : "Ramerez", "role" : "s", "email" : "lupita@ramerez.com", "password" : "$2b$10$pCtTlXiszUe8ZyQflfSUoeDXy.VSh8yD47BAFRvCus9XA9GZUecjS" }
