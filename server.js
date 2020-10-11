@@ -63,8 +63,7 @@ app.post('/fileUpload', (req, res) => {
       fileNameAry.push(fileName)
       cb(null, fileName)
 
-      console.log("ddl gallllllla")
-      console.log(fileName)
+
 
     }
   });
@@ -143,7 +142,7 @@ app.get('/test', (req, res) => {
 
 
   bcrypt.hash('12345', 10, function(err, hash) {
-    console.log("pathi pathi hash ",hash)
+    console.log("pash ",hash)
   });
 
 
