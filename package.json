@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "other": "nodemon --ignore uploads/ server.js & ng serve",
-    "start": "concurrently \"ng serve\" \"nodemon --ignore uploads/ server.js\"  ",
+    "start": "concurrently \"ng serve\" \"node --ignore uploads/ server.js\"  ",
+    "start-other": "concurrently \"ng serve\" \"nodemon --ignore uploads/ server.js\"  ",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
